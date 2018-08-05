@@ -1,0 +1,11 @@
+.vscode/
+node_modules/
+app/jspm_packages
+typings/
+dist/
+logs/
+tmp/
+typings.json
+.DS_Store
+.idea
+!.gitkeep

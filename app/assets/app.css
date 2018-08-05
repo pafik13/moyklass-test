@@ -1,0 +1,42 @@
+[ng-cloak] {
+  display: none;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Primary content area */
+
+#content {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 5px;
+}
+
+/* button.mc-dates__fast-button { */
+mc-dates .md-button {
+  font-size: 12px;
+  margin: 0 4px;
+  padding: 0 3px;
+  min-height: auto;
+  min-width: auto;
+  line-height: 24px;
+  text-transform: none;
+}
+
+mc-dates .md-button:first-child {
+  margin: 0 4px 0 0;
+}
+
+mc-dates .md-button:last-child {
+  margin: 0 0 0 4px;
+}
+
+mc-dates md-datepicker {
+  margin-right: -6px !important; 
+}

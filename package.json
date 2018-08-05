@@ -1,0 +1,27 @@
+{
+  "name": "material-start",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Typescript Tutorial project for AngularJS Material Start",
+  "repository": "https://github.com/angular/material-start",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^0.9.2"
+  },
+  "dependencies": {
+    "angular": "^1.6.10",
+    "angular-animate": "^1.6.10",
+    "angular-aria": "^1.6.10",
+    "angular-material": "^1.1.10",
+    "angular-messages": "^1.6.10",
+    "angular-sanitize": "^1.6.10",
+    "moment": "^2.22.2",
+    "systemjs": "^0.19.47",
+    "typescript": "^1.8.10",
+    "typings": "^1.5.0"
+  },
+  "scripts": {
+    "postinstall": "typings install dt~angular dt~angular-animate dt~angular-material --save && typings install dt~jquery --global --save",
+    "start": "live-server --open=app"
+  }
+}

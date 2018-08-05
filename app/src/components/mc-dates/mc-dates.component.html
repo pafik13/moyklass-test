@@ -1,0 +1,19 @@
+<div layout="column">
+  <div layout="row">
+    <div layout="column">
+      <label>с</label>
+      <md-datepicker  ng-model="$ctrl.dateFrom" md-placeholder="дд.мм.гггг" md-hide-icons="calendar" md-max-date="$ctrl.maxDate"></md-datepicker>
+    </div>
+    <div layout="column">
+      <label>по</label>
+      <md-datepicker  ng-model="$ctrl.dateTo" md-placeholder="дд.мм.гггг" md-hide-icons="calendar" md-min-date="$ctrl.minDate"></md-datepicker>
+    </div>
+  </div>
+  <div layout="row">
+    <md-button class="mc-dates__fast-button" ng-click="$ctrl.fbClick('yesterday')">Вчера</md-button>
+    <md-button class="mc-dates__fast-button" ng-click="$ctrl.fbClick('now')">Сегодня</md-button>
+    <md-button class="mc-dates__fast-button" ng-click="$ctrl.fbClick('twoWeek')">2 недели</md-button>
+    <md-button class="mc-dates__fast-button" ng-click="$ctrl.fbClick('month')">Месяц</md-button>
+    <md-button class="mc-dates__fast-button" ng-click="$ctrl.fbClick('all')">Все</md-button>
+  </div>
+</div>
